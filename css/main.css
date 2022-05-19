@@ -1,28 +1,38 @@
+
 header {
-    background-color: #FFFFFF;
-    ;}
+    background: #FFFFFF;
+    }
 
 body {
     background-color: #E5E5E5;
     color: #757575;
-    font-family:Roboto;}
+    font-family:'Roboto',sans-serif;
+    }
 
 ul {
-    list-style: none;}
+    list-style: none;
+}
 
 .logo {
-    font-family: 'Raleway';
+    text-decoration: none;
+    font-family: 'Raleway'sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    color: #2196F3;}
+    color: #2196F3;
+    
+}
 
 .logo-link {
-    color: #212121;}
+    color: #212121;
+    
+    }
 
 /*site-nav*/
 .site-nav .link {
-color: #212121;
+    text-decoration: none;
+    color: #212121;
+    
 }
 .site-nav .link:hover , 
 .site-nav .link:focus
@@ -32,24 +42,95 @@ color: #2196F3;
 .site-nav .link.current {
 color:#2196F3;
 }
+.auth-nav .auth-link {
+    text-decoration: none; 
+    color: #757575;
+    font-style: normal;
+}
+.auth-nav .auth-link:hover,
+ .auth-nav .auth-link:focus {
+    color:#2196F3;
+}
 /*hero*/
 .hero {
-    background-color: #2F303A;
-}
+     width: 1600px;
+    height: 300px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+      }
 .hero-title {
-color: #FFFFFF;
+    
+        width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 280px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
 
 }
 /*section*/
 .section-title {
     color: #212121;
 }
+/*page2*/
+.all {
+    color: #212121;
+}
 /*feature*/
 .feature-list .title {
-    color: #212121;;
+    color: #212121;
 }
+.feature-list  {
+        color: #757575;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        background: #F5F4FA;
+        
+
+}
+
 /*button*/
-.button {
-    background-color: #2196F3;
-    color: #FFFFFF;
+.hero-btn {
+        color: #FFFFFF;
+        width: 200px;
+        height: 50px;
+        left: 700px;
+        top: 430px;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        cursor: pointer;
+        }
+/*filtr*/
+.filtr .link-filtr:hover {
+background-color: #2196F3;
+color: #FFFFFF;
+cursor: pointer;
 }
+/*footer*/
+footer {
+background: #2F303A;
+}
+.logo-linkf {
+    color: #ffffff;
+}
+.map {
+         color: #ffffff;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+    }
