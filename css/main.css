@@ -79,20 +79,32 @@ color:#2196F3;
 .section-title {
     color: #212121;
 }
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 /*page2*/
 .all {
-    color: #212121;
+        color: #212121;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
 }
 /*feature*/
-.feature-list .title {
-    color: #212121;
-    width: 700;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
+    .feature-list .title {
+        color: #212121;
+        width: 700;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        
 }
 .feature-list  {
         color: #757575;
