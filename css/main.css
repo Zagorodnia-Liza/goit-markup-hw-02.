@@ -171,7 +171,6 @@ background:var(--accent-color) ;
  }
  .page-text {
     color: var(--second-color-text);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     
@@ -203,3 +202,11 @@ background:var(--accent-color) ;
     font-size: 14px;
     line-height: 1.71;
 }   
+.mail:hover, 
+.mail:focus {
+ color: var(--accent-color);
+}
+.tel:hover,
+.tel:focus {
+color: var(--accent-color);
+}
